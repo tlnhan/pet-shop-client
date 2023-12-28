@@ -2,7 +2,7 @@ import axios from 'axios';
 import Cookies from 'js-cookie';
 
 const axiosClient = axios.create({
-    baseURL: 'http://127.0.0.1:9090/api/',
+    baseURL: 'https://pet-shop-server-3z0n.onrender.com/api/',
     headers: {
         'Content-Type': 'application/json',
     },
